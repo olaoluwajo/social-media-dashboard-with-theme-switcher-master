@@ -11,7 +11,6 @@
     --Instagram: linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%));
     --YouTube: hsl(348, 97%, 39%);
 
-    /* #### Dark Theme */
 
     /* #### Light Theme */
 
@@ -178,6 +177,10 @@
       gap: 1rem;
     }
 
+    body.light .box {
+      background-color:  var(--Light-Grayish-Blue-Card-BG);
+    }
+
     .box {
       background-color: var(--Dark-Desaturated-Blue-Card-BG);
       cursor: pointer;
@@ -185,11 +188,6 @@
     .box:hover {
       background-color:  hsl(230, 21%, 27%);
      
-    }
-
-    .box.light {
-      background-color:  var(--Light-Grayish-Blue-Card-BG);
-      
     }
 
     .box.light:hover {
