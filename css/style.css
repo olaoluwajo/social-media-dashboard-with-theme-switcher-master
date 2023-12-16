@@ -63,6 +63,7 @@
     /* background-position:  center top / 100% 50%; */
     min-height: 100vh;
     color: var(--White-Text);
+    font-weight: 700;
   }
 
   body.light {
@@ -93,11 +94,11 @@
     color: var(--Bright-Red);
     font-size: 0.8rem;
   }
-
+/* 
   .top.light {
     color: var(--White-Text);
     font-weight: 700;
-  }
+  } */
 }
 
 @layer body {
@@ -188,6 +189,7 @@
 
     .box.light {
       background-color:  var(--Light-Grayish-Blue-Card-BG);
+      
     }
 
     .box.light:hover {
